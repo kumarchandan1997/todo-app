@@ -1,0 +1,46 @@
+body {
+    background-color: #87CEEB;
+}
+.card {
+    background-color: #ffffff;
+    color: #000000; 
+    width: 50%;
+    margin: auto;
+}
+.list-group-item{
+    width: 100%;
+    margin-left: -40px;
+}
+.card-header {
+    background-color: #ffffff;
+    border-bottom: none; 
+}
+.add-todo {
+    margin-bottom: 20px;
+}
+.clear-all {
+    float: right;
+}
+.pending-task {
+    float: left;
+}
+.list-group-item {
+    position: relative;
+}
+.delete-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.edit-btn{
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.input-group-append {
+    margin-left: 10px;
+}
